@@ -4,12 +4,12 @@ import ProjectCard from "@/components/project-card";
 export default function Home() {
   return (
     <>
-      <Section title="About me" className="mt-32">
+      <Section title="About me">
         <p className="paragraph mb-2">
           Crafting software with a focus on design, motion, and user experience.
         </p>
         <p className="paragraph">
-          I'm also exploring Web3 and blockchain related technologies to grow as
+          I&apos;m also exploring Web3 and blockchain related technologies to grow as
           a frontend engineer in the space.
         </p>
       </Section>
