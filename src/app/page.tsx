@@ -4,7 +4,7 @@ import ProjectCard from "@/components/project-card";
 export default function Home() {
   return (
     <>
-      <Section title="About me">
+      <Section title="About me" className="mt-32">
         <p className="paragraph mb-2">
           Crafting software with a focus on design, motion, and user experience.
         </p>
