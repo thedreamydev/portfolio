@@ -3,6 +3,7 @@
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com)
 - **Deployment**: [Vercel](https://vercel.com)
+- **Analytics**: [Beam Analytics](https://beamanalytics.io/)
 
 ## Running Locally
 
@@ -10,9 +11,9 @@
 git clone https://github.com/thedreamydev/portfolio.git
 cd portfolio
 pnpm install
-pnom run dev
+pnpm run dev
 ```
 
-## Connect 
+## Connect
 
 [Say Hello on X](https://x.com/thedreamydev)

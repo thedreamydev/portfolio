@@ -22,6 +22,13 @@ type RootLayoutProps = {
 export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          src="https://beamanalytics.b-cdn.net/beam.min.js"
+          data-token="2137e46f-01d9-4dcf-b9b5-657096599bec"
+          async
+        ></script>
+      </head>
       <body
         className={`${inter.variable} antialiased overflow-x-hidden`}
         suppressHydrationWarning
