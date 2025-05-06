@@ -25,7 +25,7 @@ export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
       <head>
         <script
           src="https://beamanalytics.b-cdn.net/beam.min.js"
-          data-token="2137e46f-01d9-4dcf-b9b5-657096599bec"
+          data-token={process.env.NEXT_PUBLIC_BEAM_TOKEN}
           async
         ></script>
       </head>
