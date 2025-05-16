@@ -3,7 +3,7 @@
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com)
 - **Deployment**: [Vercel](https://vercel.com)
-- **Analytics**: [Beam Analytics](https://beamanalytics.io/)
+- **Analytics**: [Vercel Analytics](https://vercel.com)
 
 ## Running Locally
 

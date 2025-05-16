@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
 import "@/styles/globals.css";
 
@@ -22,13 +23,6 @@ type RootLayoutProps = {
 export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
   return (
     <html lang="en">
-      <head>
-        <script
-          src="https://beamanalytics.b-cdn.net/beam.min.js"
-          data-token={process.env.NEXT_PUBLIC_BEAM_TOKEN}
-          async
-        ></script>
-      </head>
       <body
         className={`${inter.variable} antialiased overflow-x-hidden`}
         suppressHydrationWarning
@@ -42,6 +36,7 @@ export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
           </main>
           <Footer />
         </div>
+        <Analytics />
       </body>
     </html>
   );
