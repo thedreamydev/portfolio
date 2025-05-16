@@ -9,8 +9,8 @@ export default function Home() {
           Crafting software with a focus on design, motion, and user experience.
         </p>
         <p className="paragraph">
-          I&apos;m also exploring Web3 and blockchain related technologies to grow as
-          a frontend engineer in the space.
+          I&apos;m also exploring Web3 and blockchain related technologies to
+          grow as a frontend engineer in the space.
         </p>
       </Section>
 
@@ -27,7 +27,7 @@ export default function Home() {
           <ProjectCard
             name="Animations by Shoaib"
             description="Recreated the UI component animations."
-            href="https://animations.shoaibsayyed.com/"
+            href="https://animationsss.vercel.app/"
             status="In Progress"
           />
           <ProjectCard

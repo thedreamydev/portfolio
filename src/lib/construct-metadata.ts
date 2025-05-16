@@ -2,13 +2,13 @@ import { Metadata } from "next";
 
 export function constructMetadata(): Metadata {
   return {
-    metadataBase: new URL("https://shoaibsayyed.com/"),
+    metadataBase: new URL("https://thedreamydev.vercel.app/"),
     title: "Shoaib Sayyed",
     description: "Frontend Engineer",
     openGraph: {
       title: "Shoaib Sayyed",
       description: "Frontend Engineer",
-      url: "https://shoaibsayyed.com/",
+      url: "https://thedreamydev.vercel.app/",
       siteName: "Shoaib Sayyed",
       locale: "en_US",
       type: "website",
