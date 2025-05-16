@@ -27,13 +27,13 @@ export default function Home() {
           <ProjectCard
             name="Animations by Shoaib"
             description="Recreated the UI component animations."
-            href="https://animationsss.vercel.app/"
+            href="https://animationsss.vercel.app?ref=portfolio"
             status="In Progress"
           />
           <ProjectCard
             name="BlockUI"
             description="A collection of functional, interactive web3 components."
-            href="https://blockui.xyz/"
+            href="https://blockui.xyz?ref=portfolio"
             status="In Progress"
           />
         </div>
@@ -46,7 +46,7 @@ export default function Home() {
             href="https://x.com/thedreamydev"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-medium inline-block font-medium underline"
+            className="text-medium inline-block font-medium underline hover:text-rose-500 transition-colors"
           >
             X
           </a>{" "}
@@ -55,7 +55,7 @@ export default function Home() {
             href="https://github.com/thedreamydev"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-medium inline-block font-medium underline"
+            className="text-medium inline-block font-medium underline hover:text-rose-500 transition-colors"
           >
             GitHub
           </a>
